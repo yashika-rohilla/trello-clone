@@ -1,0 +1,19 @@
+.tasklist {
+  background: linear-gradient(to right, #e4e7e8, #e5e4e4);
+
+  height: 100vh;
+  overflow-x: hidden;
+}
+.taskPanelheading {
+  color: #1e3a8a;
+}
+.taskPanelPadding {
+  padding: 30px 2px 2px 25px;
+}
+.heading {
+  font-weight: bold;
+  color: rgb(71, 70, 70);
+}
+.tasks-container {
+  height: 100vh;
+}

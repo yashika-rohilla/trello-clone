@@ -1,0 +1,112 @@
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1565c0;
+}
+
+.status-tag {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-tag.backlog {
+  background: #ffcdd2;
+  color: #d32f2f;
+}
+
+.status-tag.ready {
+  background: #fff9c4;
+  color: #fbc02d;
+}
+
+.status-tag.inprogress {
+  background: #c5e1a5;
+  color: #388e3c;
+}
+
+.status-tag.done {
+  background: #b2dfdb;
+  color: #00796b;
+}
+
+.task-desc {
+  font-size: 14px;
+  color: #424242;
+  margin-bottom: 15px;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assignee {
+  display: flex;
+  align-items: center;
+}
+
+.assignee-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  margin-right: 8px;
+  border: 2px solid #1565c0;
+}
+
+.assigneeName {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1565c0;
+}
+
+.due-date {
+  font-size: 13px;
+  color: #424242;
+}
+
+.comment-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.markasComplete {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.markasComplete {
+  background-color: #007bff;
+  color: white;
+}
+
+.markasComplete:hover {
+  background-color: #0052aa;
+}
+
+.Submit {
+  background-color: #28a745;
+  color: white;
+}
+
+.Submit:hover {
+  background-color: #1e7e34;
+}

@@ -1,0 +1,58 @@
+.dashboard-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  border-bottom: 2px solid #90caf9;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.nav-links span {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-links .active {
+  color: #1e3a8a;
+  font-weight: bold;
+  border-bottom: 2px solid #1e3a8a;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.avatars img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.search-bar {
+  padding: 5px;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.logo {
+  width: 38px;
+  margin-bottom: 7px;
+  margin-right: 10px;
+}
